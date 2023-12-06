@@ -1,0 +1,159 @@
+body {
+    /* box-sizing: border-box; */
+    margin:0px;
+}
+.login {
+    text-align:right;
+    padding:20px;
+}
+.login button {
+    padding:5px;
+    border-radius: 5px;
+}
+.login button:hover {
+    background-color: aquamarine;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.header-section {
+    background-image: url(https://th.bing.com/th/id/R.6c8cdac729391c36c7d15cb7a923e0fc?rik=dqsrfk4GfYqdcw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-Z9NWMa_t6jo%2fTbIu-i5T9oI%2fAAAAAAAAANA%2fmQx5SV9JWIU%2fs1600%2fSpace%2bTheme%2bupdated.jpg&ehk=wkWAnCUMTgRGPtMfzLQU%2bxmNeygklI7e7A4fk6phkjI%3d&risl=&pid=ImgRaw&r=0);
+}
+.header-content {
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+h2 {
+    margin:0px;
+}
+h2 + p {
+    margin-top: 30px;
+}
+.line {
+    margin-bottom: 30px;
+}
+.main-section {
+    /* border:2px solid rgb(13, 13, 63); */
+    margin-top:10px;
+}
+.all-div {
+    font-weight: bold;
+    padding:10px;
+    font-size: 1.14em;
+    cursor: pointer;
+}
+#section-2 {
+    text-align: left;
+}
+/* .line-text {
+    text-indent:60px;
+} */
+.bottom-section {
+    margin-top:20px;
+    padding:10px;
+    text-align: center;
+    color:white;
+    background-image: url(https://img.huffingtonpost.com/asset/59b765601c0000140079df54.jpg?ops=1778_1000);
+}
+@media (max-width:1500px){
+    .main-section {
+        height:500px;
+        display:flex;
+        flex-direction: row;
+    }
+    #section-1 {
+        /* margin-bottom: 15px; */
+        width: 30%;
+        border-right:3px solid rgb(13, 13, 63);
+    }
+    .sub-section {
+        display:flex;
+        flex-direction: column;
+        width:75%;
+        align-items: center;
+        height: 500px;
+    }
+    .all-div {
+        font-size: 1.5em;
+        flex-grow:1;
+        border: 2px solid grey;
+        border-radius: 10px;
+        text-align: center;
+        width:100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        box-shadow: 1px 2px 2px 3px rgb(223, 224, 235);
+        
+        /* align-self: center; */
+        
+    }
+    #section-2 {
+        padding:25px;
+        overflow-y:scroll;
+        width:70%;
+        font-size: 1.7em;
+    }
+    .direct {
+        margin-top:20px;
+        display:flex;
+        flex-direction: row;
+        height:400px;
+        align-content: center;
+        
+    }
+    .three-div {
+        flex-grow: 1;
+        border:2px solid rgb(10, 10, 87);
+        border-radius:5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        box-shadow: 2px 1px 2px 2px rgb(223, 224, 235);
+        /* background-color: rgb(0, 0, 6); */
+       
+    }
+}
+@media (max-width:576px){
+    .header-section {
+        /* border:5px solid red; */
+        width:100%;
+        height:40%;
+    }
+    .main-section {
+        margin:0px;
+        padding:0px;
+        width:100%;
+        height:60%;
+        display:flex;
+        flex-direction: column;
+    }
+    #section-1 {
+        /* padding:10px; */
+        width:100%;
+        margin-bottom: 15px;
+        margin-top:15px;
+        display:flex;
+        flex-direction: row;
+        border:2px solid blue;
+    }
+    .sub-section {
+        width:100%;
+        /* margin-bottom: 15px;
+        margin-top:15px; */
+        display:flex;
+        flex-direction: row;
+        /* border:2px solid blue; */
+    }
+    .all-div {
+        /* margin-bottom: 40px; */
+        flex-grow: 1;
+        font-size: 1.2em;
+        justify-content: space-evenly;  
+    } 
+    #section-2 {
+        font-size: 1.5em;
+        /* padding:10px; */
+        width:100%;
+        border:2px solid blue;
+    } 
+}
+

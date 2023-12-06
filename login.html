@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body id="background-img">
+    <div class="nav-1">
+        <div class="back" onclick="backToHomePage()">
+            <span class="line">Back</span>
+        </div>
+        <div class="exit">
+            <span class="line">Help</span>
+        </div>
+    </div>
+    <div class="bottom-section">  
+    <div class="container">
+        <div class="sub-container-1">
+            <h2>Login</h2>
+        </div>
+        <div class="sub-container-2">
+            <div class="login">
+                <form>
+                    <input type="text" placeholder="Username">
+                </form>
+            </div>
+            <div class="password">
+                <form>
+                    <input type="text" placeholder="Password">
+                    <div class="submit"><button>SUBMIT</button></div>
+                </form>
+            </div>
+            <p>< Please login to get extra benefits! ></p>
+        </div>
+    </div>
+    </div>
+    <script>
+        let myWindow;
+        function backToHomePage(){
+           myWindow = window.open("http://127.0.0.1:5500/index.html");
+        }
+    </script>
+</body>
+</html>
